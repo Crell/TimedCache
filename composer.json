@@ -1,5 +1,5 @@
 {
-    "name": "crell/*",
+    "name": "crell/timedcache",
     "require": {
         "php": "~8.4"
     },
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Crell\\Foo\\": "src"
+            "Crell\\TimedCache\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Crell\\Foo\\": "tests",
-            "Crell\\Foo\\Benchmarks\\": "benchmarks"
+            "Crell\\TimedCache\\": "tests",
+            "Crell\\TimedCache\\Benchmarks\\": "benchmarks"
         }
     },
     "scripts": {
