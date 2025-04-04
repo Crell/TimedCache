@@ -1,0 +1,8 @@
+.env
+vendor
+.phpunit.result.cache
+build
+composer.lock
+
+.idea
+*.iml
